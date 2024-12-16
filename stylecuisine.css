@@ -1,0 +1,55 @@
+*{
+	background-color:;
+}
+
+.container{
+	display:flex;
+}
+
+nav a{
+	flex:1;color:white;text-decoration:none;
+}
+
+nav{
+	background-color:red;padding:15px;height:30px;
+}
+
+#heading{
+	align-items:center;justify-content:center;text-align:center;font-size:30px;background-color:blue;color:white;padding:20px;
+}
+
+#banner{
+	align-items:center;justify-content:center;text-align:center;flex:1;display:flex;padding:10px;
+}
+
+#banner img{
+	height:500px;width:2000px;object-fit:cover;
+} 
+
+.center{
+	align-items:center;justify-content:center;text-align:center;flex:1;
+}
+
+#left img{
+	width:500px;height:500px;
+}
+
+#right{
+	font-size:50px;color:white;
+}
+
+#bibimbap{
+	background-color:red;
+}
+
+#kimchi{
+	background-color:black;
+}
+
+#tteokbokki{
+	background-color:blue;
+}
+
+#footer{
+	background-color:black;color:white;display:flex;padding:10px;flex-direction:column;flex:1;
+}
